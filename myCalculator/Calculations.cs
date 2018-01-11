@@ -9,22 +9,22 @@ namespace myCalculator
 {
     public static class Calculations
     {
-        public static float AddingFormula(float numberOne, float numberTwo)
+        public static double AddingFormula(double numberOne, double numberTwo)
         {
             return numberOne + numberTwo;
         }
 
-        public static float SubstrationFormula(float numberOne, float numberTwo)
+        public static double SubstrationFormula(double numberOne, double numberTwo)
         {
             return numberOne - numberTwo;
         }
 
-        public static float MultiplationFormula(float numberOne, float numberTwo)
+        public static double MultiplationFormula(double numberOne, double numberTwo)
         {
             return numberOne * numberTwo;
         }
 
-        public static float DivisionFormula(float numberOne, float numberTwo)
+        public static double DivisionFormula(double numberOne, double numberTwo)
         {
             return numberOne / numberTwo;
         }
